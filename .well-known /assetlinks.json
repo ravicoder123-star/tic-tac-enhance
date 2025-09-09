@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.mygame.tictacenhance",
+      "sha256_cert_fingerprints": [
+     "19:82:86:BA:19:58:15:27:10:85:5F:95:39:67:16:5F:EE:78:50:D2:F2:C9:96:B9:AF:88:B5:6D:C4:6F:7A:6E"
+      ]
+    }
+  }
+]
