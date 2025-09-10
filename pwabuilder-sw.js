@@ -2,8 +2,8 @@ const CACHE_NAME = 'tic-tac-enhance-v1';
 const CORE_ASSETS = [
   '/',
   '/index.html',
-  '/styles.css',     // add your file names
-  '/game.js',        // add your file names
+  '/styles.css',     // add your filenames
+  '/game.js',        // add your filenames
   '/icon-192.png',
   '/icon-512.png'
 ];
@@ -15,6 +15,7 @@ self.addEventListener('install', event => {
   self.skipWaiting();
 });
 
+// same activate & fetch handlers as before...
 self.addEventListener('activate', event => {
   event.waitUntil(
     caches.keys().then(keys => Promise.all(
